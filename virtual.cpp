@@ -8,10 +8,10 @@ class Base {
     }
 };
 
-class Base {
+class Derived : public Base {
    public:
-    virtual void print() {
-        // code
+    void print() {
+        cout << "Derived Function" << endl;
     }
 };
 
