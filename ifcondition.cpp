@@ -28,6 +28,8 @@ void swap(int &n1, int &n2) {
     temp = n1;
     n1 = n2;
     n2 = temp;
+    temp = n1 - n2;
+    
 }
 
 int main()
@@ -46,6 +48,6 @@ int main()
     cout << "\nAfter swapping" << endl;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
-
+    cout << temp;
     return 0;
 }
