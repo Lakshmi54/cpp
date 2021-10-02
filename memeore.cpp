@@ -11,6 +11,7 @@ int main() {
     // dynamically allocate memory
     pointInt = new int;
     pointFloat = new float;
+    pontDouble = new double;
 
     // assigning value to the memory
     *pointInt = 45;
@@ -18,6 +19,7 @@ int main() {
 
     cout << *pointInt << endl;
     cout << *pointFloat << endl;
+    cout<< "lint on "<< endl;
 
     // deallocate the memory
     delete pointInt;
